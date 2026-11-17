@@ -1,0 +1,19 @@
+{
+  "title": "Something Kept Unzipping Our Tent at 3 AM #shorts #horror",
+  "description": "We camped miles from anyone. At 3 AM, our tent started unzipping by itself. #shorts #horror #scary #creepy #horrorstory #camping",
+  "seed": 6,
+  "hook": {"text": "Never zip the tent back up.", "scene": "figure"},
+  "lines": [
+    {"text": "My brother and I camped deep in the woods.", "scene": "house"},
+    {"text": "No cell signal. No other campers for miles.", "scene": "house"},
+    {"text": "At three in the morning, I heard a zipper.", "scene": "door"},
+    {"text": "Our tent door was slowly opening.", "scene": "door"},
+    {"text": "I zipped it shut. My brother kept snoring.", "scene": "window"},
+    {"text": "A minute later, it started unzipping again.", "scene": "knock"},
+    {"text": "I whispered his name. He didn't move.", "scene": "figure"},
+    {"text": "Then I heard his voice. Outside the tent.", "scene": "window"},
+    {"text": "Let me in. That isn't me in there.", "scene": "knock"},
+    {"text": "The thing beside me stopped snoring.", "scene": "figure"},
+    {"text": "And slowly turned to face me.", "scene": "grave"}
+  ]
+}
