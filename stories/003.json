@@ -1,0 +1,18 @@
+{
+  "title": "The Car Behind Me Had No Driver #shorts #horror",
+  "description": "A long drive home on an empty road. Headlights followed me for miles, and the seat behind them was empty. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 3,
+  "hook": {"text": "Never check your mirror after midnight.", "scene": "window"},
+  "lines": [
+    {"text": "I was driving home on the old forest road.", "scene": "house"},
+    {"text": "Headlights appeared behind me. Close. Too close.", "scene": "window"},
+    {"text": "I slowed down so they could pass.", "scene": "door"},
+    {"text": "They slowed down too.", "scene": "window"},
+    {"text": "At the stop sign, I looked back.", "scene": "figure"},
+    {"text": "The driver's seat was empty.", "scene": "figure"},
+    {"text": "My phone buzzed. A text from an unknown number.", "scene": "phone"},
+    {"text": "It said: you forgot to pick me up.", "scene": "phone"},
+    {"text": "I floored it all the way home.", "scene": "house"},
+    {"text": "Now someone is tapping on my back seat window.", "scene": "knock"}
+  ]
+}
