@@ -1,0 +1,18 @@
+{
+  "title": "My Dead Grandma Called Me Last Night #shorts #horror",
+  "description": "She called every night at nine. Then she died. Last night, my phone rang at nine. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 1,
+  "hook": {"text": "Don't answer after nine.", "scene": "phone"},
+  "lines": [
+    {"text": "Every night at nine, my grandmother called me.", "scene": "house"},
+    {"text": "Always the same words. Lock the doors.", "scene": "door"},
+    {"text": "Last winter, she passed away.", "scene": "grave"},
+    {"text": "I never deleted her number.", "scene": "phone"},
+    {"text": "Last night, at exactly nine, my phone rang.", "scene": "phone"},
+    {"text": "It was her number.", "scene": "window"},
+    {"text": "I answered. Her voice said, lock the doors.", "scene": "door"},
+    {"text": "Then a second voice whispered, right behind her.", "scene": "figure"},
+    {"text": "She can't hear you anymore. But I can.", "scene": "figure"},
+    {"text": "Then someone knocked on my door.", "scene": "knock"}
+  ]
+}
