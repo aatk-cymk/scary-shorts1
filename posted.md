@@ -11,3 +11,4 @@ One line per post: number | date | title | YouTube URL
 008 | 2026-11-18 | We Found a Phone Still Ringing in the Abandoned Motel #shorts #horror | (scheduled via Metricool)
 009 | 2026-11-18 | I Got a Voicemail From Inside the House I Was Sitting #shorts #horror | (scheduled via Metricool)
 010 | 2026-11-18 | My Doorbell Camera Showed Someone Standing There for 6 Hours #shorts #horror | (scheduled via Metricool)
+011 | 2026-11-18 | Every Photo in Our New House Had One Extra Person #shorts #horror | (scheduled via Metricool)
