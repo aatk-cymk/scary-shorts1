@@ -1,0 +1,18 @@
+{
+  "title": "The Elevator Stopped on a Floor That Doesn't Exist #shorts #horror",
+  "description": "My building has twelve floors. Last night the elevator stopped on thirteen, and someone was waiting. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 2,
+  "hook": {"text": "Never press the button twice.", "scene": "door"},
+  "lines": [
+    {"text": "My apartment building has twelve floors.", "scene": "house"},
+    {"text": "I came home late and pressed twelve. Twice.", "scene": "door"},
+    {"text": "The elevator went up. And kept going.", "scene": "window"},
+    {"text": "The screen flickered. Thirteen.", "scene": "phone"},
+    {"text": "The doors opened onto a dark hallway.", "scene": "door"},
+    {"text": "Every apartment door was wide open.", "scene": "house"},
+    {"text": "At the far end, someone stood very still.", "scene": "figure"},
+    {"text": "It said my name. In my own voice.", "scene": "figure"},
+    {"text": "I hit close until the doors shut.", "scene": "door"},
+    {"text": "Tonight, there's a knock on my door. From the inside.", "scene": "knock"}
+  ]
+}
