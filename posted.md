@@ -7,3 +7,4 @@ One line per post: number | date | title | YouTube URL
 004 | 2026-11-17 | The Baby Monitor Picked Up a Second Voice #shorts #horror | (scheduled via Metricool)
 005 | 2026-11-17 | My Reflection Stopped Copying Me #shorts #horror | (scheduled via Metricool)
 006 | 2026-11-17 | Something Kept Unzipping Our Tent at 3 AM #shorts #horror | (scheduled via Metricool)
+007 | 2026-11-18 | My Neighbour Waves at Me Every Night at 3 AM #shorts #horror | (scheduled via Metricool)
