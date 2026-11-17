@@ -1,0 +1,19 @@
+{
+  "title": "My Neighbour Waves at Me Every Night at 3 AM #shorts #horror",
+  "description": "The house next door has been empty for years. So who keeps waving from the window? #shorts #horror #scary #creepy #horrorstory",
+  "seed": 7,
+  "hook": {"text": "Never wave back.", "scene": "window"},
+  "lines": [
+    {"text": "The house next door has been empty for six years.", "scene": "house"},
+    {"text": "Last month, a light came on upstairs.", "scene": "window"},
+    {"text": "A thin man stood there, waving at me.", "scene": "figure"},
+    {"text": "Every night, three AM. Same window. Same slow wave.", "scene": "window"},
+    {"text": "I called the landlord. He sounded confused.", "scene": "phone"},
+    {"text": "That house has no power. The windows are boarded.", "scene": "house"},
+    {"text": "Last night, I finally waved back.", "scene": "window"},
+    {"text": "He stopped. Then he smiled, and stepped away.", "scene": "figure"},
+    {"text": "His window went dark.", "scene": "house"},
+    {"text": "A minute later, something knocked on my door.", "scene": "knock"},
+    {"text": "Three slow knocks. Exactly like his wave.", "scene": "door"}
+  ]
+}
