@@ -8,3 +8,4 @@ One line per post: number | date | title | YouTube URL
 005 | 2026-11-17 | My Reflection Stopped Copying Me #shorts #horror | (scheduled via Metricool)
 006 | 2026-11-17 | Something Kept Unzipping Our Tent at 3 AM #shorts #horror | (scheduled via Metricool)
 007 | 2026-11-18 | My Neighbour Waves at Me Every Night at 3 AM #shorts #horror | (scheduled via Metricool)
+008 | 2026-11-18 | We Found a Phone Still Ringing in the Abandoned Motel #shorts #horror | (scheduled via Metricool)
