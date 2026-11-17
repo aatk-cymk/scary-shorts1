@@ -1,0 +1,18 @@
+{
+  "title": "I Got a Voicemail From Inside the House I Was Sitting #shorts #horror",
+  "description": "The owners said the house would be empty all week. So who left me a voicemail from the upstairs landline? #shorts #horror #scary #creepy #horrorstory",
+  "seed": 9,
+  "hook": {"text": "The voicemail came from the upstairs line.", "scene": "phone"},
+  "lines": [
+    {"text": "I was house-sitting for a couple away for the week.", "scene": "house"},
+    {"text": "They said one rule. Never go into the attic.", "scene": "door"},
+    {"text": "On the second night, my phone buzzed. New voicemail.", "scene": "phone"},
+    {"text": "The number was the house landline. Upstairs extension.", "scene": "phone"},
+    {"text": "I played it. Just slow breathing, then a whisper.", "scene": "figure"},
+    {"text": "It said, you left the hallway light on.", "scene": "window"},
+    {"text": "Then three soft knocks, from above the ceiling.", "scene": "knock"},
+    {"text": "I called the owners. They answered on the first ring.", "scene": "phone"},
+    {"text": "They said, we never had a phone put in upstairs.", "scene": "house"},
+    {"text": "Then my phone buzzed again. Another new voicemail.", "scene": "figure"}
+  ]
+}
