@@ -1,0 +1,51 @@
+{
+  "title": "My Doorbell Camera Showed Someone Standing There for 6 Hours #shorts #horror",
+  "description": "The doorbell camera caught someone on my porch all night. They never moved. They never rang. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 10,
+  "hook": {
+    "text": "Someone stood at my door for six hours.",
+    "scene": "door"
+  },
+  "lines": [
+    {
+      "text": "I put a doorbell camera on my new house.",
+      "scene": "house"
+    },
+    {
+      "text": "Next morning, I checked the overnight recording.",
+      "scene": "phone"
+    },
+    {
+      "text": "At midnight, someone walked up and stood on my porch.",
+      "scene": "figure"
+    },
+    {
+      "text": "No knock. No ring. They just stood there.",
+      "scene": "door"
+    },
+    {
+      "text": "Six hours, facing the door, never moving.",
+      "scene": "figure"
+    },
+    {
+      "text": "At dawn, they turned and looked into the camera.",
+      "scene": "window"
+    },
+    {
+      "text": "It was me. In the clothes I'd slept in.",
+      "scene": "figure"
+    },
+    {
+      "text": "That night, I locked my bedroom door and stayed awake.",
+      "scene": "house"
+    },
+    {
+      "text": "At midnight, my phone buzzed. Motion at the front door.",
+      "scene": "phone"
+    },
+    {
+      "text": "Then a soft knock. From inside my bedroom.",
+      "scene": "knock"
+    }
+  ]
+}
