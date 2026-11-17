@@ -1,0 +1,18 @@
+{
+  "title": "The Baby Monitor Picked Up a Second Voice #shorts #horror",
+  "description": "I was babysitting. The monitor was supposed to be silent. Then someone started singing to the baby. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 4,
+  "hook": {"text": "Never trust a quiet baby monitor.", "scene": "house"},
+  "lines": [
+    {"text": "I was babysitting for the new family next door.", "scene": "house"},
+    {"text": "The baby fell asleep early. The house went silent.", "scene": "window"},
+    {"text": "Around midnight, the baby monitor crackled.", "scene": "phone"},
+    {"text": "Someone was humming a lullaby. Softly.", "scene": "figure"},
+    {"text": "I called the parents. They were still at dinner.", "scene": "phone"},
+    {"text": "The mother went quiet. Then she said, we don't have a monitor.", "scene": "phone"},
+    {"text": "I looked down at the little speaker in my hand.", "scene": "window"},
+    {"text": "The humming stopped. A voice whispered, she's sleeping now.", "scene": "figure"},
+    {"text": "I ran upstairs. The nursery door was locked.", "scene": "door"},
+    {"text": "From inside, something knocked back. Three slow times.", "scene": "knock"}
+  ]
+}
