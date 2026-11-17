@@ -1,0 +1,19 @@
+{
+  "title": "We Found a Phone Still Ringing in the Abandoned Motel #shorts #horror",
+  "description": "Room 9 of the old roadside motel had no power for decades. Its phone was still ringing. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 8,
+  "hook": {"text": "Some calls should never be answered.", "scene": "phone"},
+  "lines": [
+    {"text": "We explored the old motel off Route 9 at midnight.", "scene": "house"},
+    {"text": "It closed in nineteen eighty-one. No power since.", "scene": "window"},
+    {"text": "Then we heard it. A phone, ringing in room nine.", "scene": "phone"},
+    {"text": "The door was locked from the inside.", "scene": "door"},
+    {"text": "My friend kicked it open. The ringing stopped.", "scene": "door"},
+    {"text": "The phone cord was cut. Years ago, by the rust.", "scene": "phone"},
+    {"text": "On the bed, a guest book. Every name crossed out.", "scene": "house"},
+    {"text": "The last line was fresh ink. My name.", "scene": "figure"},
+    {"text": "We ran. Behind us, the phone began to ring again.", "scene": "phone"},
+    {"text": "That night, my own phone rang. Unknown number.", "scene": "phone"},
+    {"text": "A tired voice asked, how long will you be staying?", "scene": "figure"}
+  ]
+}
