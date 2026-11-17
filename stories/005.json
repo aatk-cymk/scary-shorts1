@@ -1,0 +1,19 @@
+{
+  "title": "My Reflection Stopped Copying Me #shorts #horror",
+  "description": "The old mirror came with the apartment. Last night, my reflection blinked first. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 5,
+  "hook": {"text": "Never trust a mirror that came with the house.", "scene": "window"},
+  "lines": [
+    {"text": "The apartment was cheap because of one rule.", "scene": "house"},
+    {"text": "Never cover the hallway mirror.", "scene": "door"},
+    {"text": "The landlord wouldn't say why.", "scene": "phone"},
+    {"text": "For weeks, nothing happened.", "scene": "house"},
+    {"text": "Then one night, I brushed my teeth and smiled.", "scene": "window"},
+    {"text": "My reflection didn't smile back.", "scene": "figure"},
+    {"text": "It just stared, then slowly raised a finger to its lips.", "scene": "figure"},
+    {"text": "I threw a towel over the glass and ran to bed.", "scene": "door"},
+    {"text": "At three a.m., I heard tapping from the hallway.", "scene": "knock"},
+    {"text": "From the inside of the mirror.", "scene": "knock"},
+    {"text": "In the morning, the towel was folded neatly on my pillow.", "scene": "figure"}
+  ]
+}
