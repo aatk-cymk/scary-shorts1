@@ -1,0 +1,18 @@
+{
+  "title": "Every Photo in Our New House Had One Extra Person #shorts #horror",
+  "description": "Four of us posed for the photo. Five faces came out. And every picture after that, she was closer. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 11,
+  "hook": {"text": "Count the faces in your photos.", "scene": "phone"},
+  "lines": [
+    {"text": "We moved into the old farmhouse in October.", "scene": "house"},
+    {"text": "On the first night, we took a family photo.", "scene": "house"},
+    {"text": "Four of us smiled. Five faces came out.", "scene": "figure"},
+    {"text": "A pale woman, standing right behind my daughter.", "scene": "figure"},
+    {"text": "Dad laughed. Just a glitch, he said.", "scene": "door"},
+    {"text": "But in every photo after that, she was closer.", "scene": "window"},
+    {"text": "Last night, I scrolled to the newest one.", "scene": "phone"},
+    {"text": "She wasn't behind us anymore.", "scene": "figure"},
+    {"text": "She was standing exactly where I held the camera.", "scene": "window"},
+    {"text": "We were all in the picture. So who took it?", "scene": "knock"}
+  ]
+}
