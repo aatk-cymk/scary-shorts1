@@ -1,0 +1,19 @@
+{
+  "title": "The Call Button in the Closed Hospital Wing Kept Ringing #shorts #horror",
+  "description": "I worked nights guarding a hospital wing that closed years ago. Every night at 2 AM, room 14 pressed the call button. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 12,
+  "hook": {"text": "Room 14 has been empty for years.", "scene": "door"},
+  "lines": [
+    {"text": "I took a night job guarding an old hospital wing.", "scene": "house"},
+    {"text": "It closed years ago. No patients. No power upstairs.", "scene": "window"},
+    {"text": "At two AM, the nurse's phone lit up.", "scene": "phone"},
+    {"text": "The call light said room fourteen.", "scene": "door"},
+    {"text": "I went up with my flashlight. The room was empty.", "scene": "figure"},
+    {"text": "The bed sheets were still warm.", "scene": "house"},
+    {"text": "The next night, it rang again. And the next.", "scene": "phone"},
+    {"text": "So I unplugged the whole switchboard.", "scene": "phone"},
+    {"text": "At two AM, someone knocked on the guard booth.", "scene": "knock"},
+    {"text": "A thin voice said, nobody came when I called.", "scene": "figure"},
+    {"text": "So I came down to you.", "scene": "window"}
+  ]
+}
