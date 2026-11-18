@@ -1,0 +1,51 @@
+{
+  "title": "The Gas Station Clerk Told Me Not to Look in My Back Seat #shorts #horror",
+  "description": "I stopped for gas on an empty highway at 3 AM. The clerk wouldn't stop staring at my car. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 14,
+  "hook": {
+    "text": "The clerk said: don't look in your back seat.",
+    "scene": "window"
+  },
+  "lines": [
+    {
+      "text": "Three AM. Empty highway. I stopped for gas.",
+      "scene": "house"
+    },
+    {
+      "text": "The clerk kept staring past me, at my car.",
+      "scene": "window"
+    },
+    {
+      "text": "He slid me a note. His hands were shaking.",
+      "scene": "figure"
+    },
+    {
+      "text": "It said: Don't look back. Just drive.",
+      "scene": "phone"
+    },
+    {
+      "text": "I laughed and walked back to my car.",
+      "scene": "door"
+    },
+    {
+      "text": "The whole drive, the back seat creaked.",
+      "scene": "window"
+    },
+    {
+      "text": "Something breathed behind me. Matching my breath.",
+      "scene": "figure"
+    },
+    {
+      "text": "I didn't look. I drove to the police station.",
+      "scene": "house"
+    },
+    {
+      "text": "The officer opened my back door. Empty.",
+      "scene": "door"
+    },
+    {
+      "text": "But muddy handprints covered the roof. From inside.",
+      "scene": "knock"
+    }
+  ]
+}
