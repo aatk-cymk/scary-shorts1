@@ -1,0 +1,19 @@
+{
+  "title": "Someone Kept Doing Laundry at the Closed Laundromat #shorts #horror",
+  "description": "The laundromat under my flat closed years ago. So why does a dryer start spinning every night at 2 AM? #shorts #horror #scary #creepy #horrorstory",
+  "seed": 13,
+  "hook": {"text": "The laundromat closed years ago. The dryers didn't stop.", "scene": "house"},
+  "lines": [
+    {"text": "I live above a laundromat that closed five years ago.", "scene": "house"},
+    {"text": "Every night at two, I hear a dryer start spinning.", "scene": "window"},
+    {"text": "Last night, I finally went down to look.", "scene": "door"},
+    {"text": "The windows were dusty. One machine glowed inside.", "scene": "window"},
+    {"text": "Through the glass door, I watched it tumble.", "scene": "door"},
+    {"text": "It wasn't clothes. It was my coat. My scarf.", "scene": "figure"},
+    {"text": "The ones hanging in my hallway upstairs.", "scene": "house"},
+    {"text": "The dryer stopped. The little door swung open.", "scene": "door"},
+    {"text": "A wet handprint pressed against the glass. From inside.", "scene": "figure"},
+    {"text": "When I got home, my hallway hooks were empty.", "scene": "house"},
+    {"text": "And something was knocking from inside my closet.", "scene": "knock"}
+  ]
+}
