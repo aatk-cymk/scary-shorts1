@@ -1,0 +1,14 @@
+{
+  "title": "My Phone Recorded Me Sleeping. I Wasn't Alone #shorts #horror",
+  "description": "I found a voice note on my phone from 3:12 AM. I was asleep. Someone else was talking. #shorts #horror #scary #creepy #horrorstory",
+  "seed": 15,
+  "hook": {"text": "Someone whispered my name while I slept.", "scene": "mirror"},
+  "lines": [
+    {"text": "I found a voice note on my phone. Recorded at 3:12 AM.", "scene": "phone"},
+    {"text": "I was asleep. Alone. Doors locked.", "scene": "house"},
+    {"text": "At first, just my breathing. Then footsteps.", "scene": "door"},
+    {"text": "Then a voice, right next to the bed, whispered my name.", "scene": "figure"},
+    {"text": "It said: she sleeps so deeply.", "scene": "mirror"},
+    {"text": "Last night I hit record again. It's 3:11.", "scene": "knock"}
+  ]
+}

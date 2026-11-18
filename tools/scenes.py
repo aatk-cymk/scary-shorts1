@@ -103,11 +103,12 @@ def scene_phone(seed):
     d = ImageDraw.Draw(img)
     d.rounded_rectangle([400, 820, 680, 1360], 40, fill=(10, 10, 12))
     d.rounded_rectangle([418, 850, 662, 1330], 26, fill=(150, 175, 210))
-    d.ellipse([500, 960, 580, 1040], fill=(90, 110, 140))
     from PIL import ImageFont
     f1 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 34)
     f2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 24)
-    d.text((540, 1090), "Grandma", fill=(20, 25, 35), font=f1, anchor="mm")
+    f3 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 64)
+    d.text((540, 930), "3:12", fill=(20, 25, 35), font=f3, anchor="mm")
+    d.text((540, 1090), "Unknown", fill=(20, 25, 35), font=f1, anchor="mm")
     d.text((540, 1135), "incoming call...", fill=(40, 50, 65), font=f2, anchor="mm")
     d.ellipse([440, 1230, 510, 1300], fill=(160, 30, 30)); d.ellipse([570, 1230, 640, 1300], fill=(30, 140, 60))
     return vignette(img, 0.9)
@@ -174,7 +175,61 @@ def scene_window(seed):
     return vignette(img, 0.85)
 
 
+def scene_road(seed):
+    img = moon(sky(seed, (8, 9, 16), (30, 26, 34)), 780, 360, 60)
+    d = ImageDraw.Draw(img)
+    ground(d, 1050, seed=seed)
+    # road vanishing to horizon
+    d.polygon([(500, 1050), (580, 1050), (1000, H), (80, H)], fill=(20, 19, 22))
+    for k in range(6):
+        y0 = 1080 + k * k * 22; y1 = y0 + 20 + k * 10
+        w0 = 4 + k * 3
+        d.polygon([(540 - w0, y0), (540 + w0, y0), (540 + w0 + 3, y1), (540 - w0 - 3, y1)], fill=(150, 140, 90))
+    for x in (60, 240, 860, 1010):
+        dead_tree(d, x, 1060, 600, seed + x)
+    # headlights far behind
+    glow = Image.new("RGB", (W, H), (0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    gd.ellipse([505, 1035, 525, 1055], fill=(255, 250, 220)); gd.ellipse([555, 1035, 575, 1055], fill=(255, 250, 220))
+    img = ImageChops.add(img, glow.filter(ImageFilter.GaussianBlur(6)))
+    img = ImageChops.add(img, glow.filter(ImageFilter.GaussianBlur(40)))
+    return vignette(fog(img, seed, 1000, 40))
+
+
+def scene_forest(seed):
+    img = moon(sky(seed, (6, 10, 12), (22, 30, 30)), 540, 300, 50)
+    d = ImageDraw.Draw(img)
+    rnd = random.Random(seed)
+    for layer, col in [(0, (24, 30, 30)), (1, (14, 18, 18)), (2, BLACK)]:
+        for _ in range(7):
+            x = rnd.randint(-50, W + 50); w = rnd.randint(30, 70) + layer * 25
+            d.rectangle([x, 0, x + w, H], fill=col)
+    ground(d, 1500, seed=seed)
+    # tent glow
+    d.polygon([(380, 1520), (540, 1300), (700, 1520)], fill=(120, 80, 30))
+    d.line([(540, 1300), (540, 1520)], fill=(60, 40, 15), width=6)
+    figure(d, 840, 1530, 0.8)
+    return vignette(fog(img, seed, 1300, 45))
+
+
+def scene_mirror(seed):
+    img = sky(seed, (8, 7, 9), (14, 12, 12))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([290, 380, 790, 1480], 230, fill=(60, 50, 40))
+    d.rounded_rectangle([320, 410, 760, 1450], 210, fill=(28, 32, 38))
+    figure(d, 540, 1600, 1.4, col=(10, 12, 14))
+    # two pale eyes in the reflection
+    glow = Image.new("RGB", (W, H), (0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    gd.ellipse([512, 1000, 526, 1010], fill=(230, 230, 220)); gd.ellipse([554, 1000, 568, 1010], fill=(230, 230, 220))
+    img = ImageChops.add(img, glow.filter(ImageFilter.GaussianBlur(2)))
+    d = ImageDraw.Draw(img)
+    d.rectangle([200, 1480, 880, 1560], fill=(26, 18, 14))
+    return vignette(img, 0.9)
+
+
 SCENES = {
+    "road": scene_road, "forest": scene_forest, "mirror": scene_mirror,
     "house": scene_house, "phone": scene_phone, "grave": scene_grave,
     "door": scene_door, "knock": lambda s: scene_door(s, True),
     "figure": scene_figure, "window": scene_window,

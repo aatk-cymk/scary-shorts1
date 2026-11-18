@@ -15,7 +15,7 @@ def cb(wav, n, events):
 
 lib.espeak_SetSynthCallback(cb)
 lib.espeak_SetVoiceByName(b"en-us+m3")
-lib.espeak_SetParameter(1, 130, 0)  # rate wpm
+lib.espeak_SetParameter(1, 150, 0)  # rate wpm
 lib.espeak_SetParameter(3, 30, 0)   # pitch
 lib.espeak_SetParameter(4, 20, 0)   # range
 
